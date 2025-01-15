@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday Destination Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Next Holiday Destination</h1>
+
+  <!-- top bar for users to link to different section -->
+  <div class="top-bar">
+    <a href="#search-section">Search</a>
+    <a href="#top-offer-section">Top Offers</a>
+  </div>
+  <!-- search section -->
+  <section id="search-section">
+  <input type="text" id="search-input" placeholder="Enter a location" />
+  <button id="search-button">Search</button>
+  <div id="map" style="height: 400px; width: 100%;"></div>
+  <div id="accommodation"></div>
+  <div id="restaurants"></div>
+  <div id="attractions"></div>
+    </section>
+  <!-- top offer section -->
+  <section id="top-offer-section">
+  <h2>Top Offers</h2>
+    <div class="travel-packages">
+      <div class="package-card">
+        <img src="paris.jpg" alt="Paris" class="package-image">
+        <h3 class="package-title">Paris</h3>
+        <p class="package-price">From £599</p>
+        <a href="#booking-form" class="cta-button">Book Now</a>
+      </div>
+
+      <div class="package-card">
+        <img src="beijing.JPG" alt="Beijing" class="package-image">
+        <h3 class="package-title">Beijing</h3>
+        <p class="package-price">From £999</p>
+        <a href="#booking-form" class="cta-button">Book Now</a>
+      </div>
+      <div class="package-card">
+        <img src="newyork.jpeg" alt="New York" class="package-image">
+        <h3 class="package-title">New York</h3>
+        <p class="package-price">From £1,999</p>
+        <a href="#booking-form" class="cta-button">Book Now</a>
+      </div>
+
+      <div class="package-card">
+        <img src="cairo.jpg" alt="Cairo" class="package-image">
+        <h3 class="package-title">Cairo</h3>
+        <p class="package-price">From £999</p>
+        <a href="#booking-form" class="cta-button">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+        <!-- Booking Form Section -->
+        <div id="booking-form">
+          <h3>Book Your Travel Package</h3>
+          <form action="/submit-booking" method="POST">
+            <label for="package">Package Name</label>
+            <select id="package" name="package" required>
+              <option value=" Paris">Paris</option>
+              <option value="Beijing">Beijing</option>
+              <option value="New York">New York</option>
+              <option value="Cairo">Cairo</option>
+            </select>
+
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

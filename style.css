@@ -1,0 +1,194 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1, body {font-family: Arial, sans-serif;}
+
+
+h1,
+h2 {
+  text-align: center;
+}
+
+/* Top bar styling */
+.top-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: lightblue;
+  /* Light blue background */
+  padding: 10px 20px;
+  border-radius: 0 0 0 10px;
+  /* Round bottom-left corner */
+  display: flex;
+  /* Make items horizontal */
+  gap: 15px;
+  /* Space between links */
+  z-index: 1000;
+  /* Keep the bar on top of other content */
+}
+
+.top-bar a {
+  color: black;
+  /* Black text color */
+  text-decoration: none;
+  /* Remove underline */
+  font-weight: bold;
+  /* Bold text for visibility */
+}
+
+.top-bar a:hover {
+  text-decoration: underline;
+}
+
+#search-section,
+#top-offer-section {
+  margin-top: 60px;
+  /* To ensure content isn't hidden behind the top bar */
+  padding: 20px;
+}
+
+
+#map {
+  height: 500px;
+  width: 100%;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+.package {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#booking-form {
+  padding: 20px;
+  margin-top: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#booking-form h3 {
+  text-align: center;
+}
+
+#booking-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+#booking-form label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+#booking-form input,
+#booking-form select,
+#booking-form button {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#booking-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#booking-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Flexbox for Travel Packages */
+.travel-packages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* 2 items per row */
+  gap: 20px;
+  /* Space between cards */
+  padding: 20px;
+}
+
+.package-card {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background: #fff;
+}
+
+.travel-packages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* 2 columns */
+  gap: 20px;
+  /* Space between cards */
+  padding: 20px;
+}
+
+.package-card {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background: #fff;
+}
+
+.package-image {
+  width: 100%;
+  /* Adjust to fit the card */
+  height: auto;
+  /* Maintain aspect ratio */
+  max-height: 150px;
+  /* Optional: Limit height for uniformity */
+  object-fit: cover;
+  /* Ensures images look neat */
+  border-radius: 8px;
+}
+
+.package-title {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.package-price {
+  margin: 5px 0;
+  color: #666;
+  font-size: 16px;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Optional: Adjust the layout for small screens */
+@media (max-width: 768px) {
+  .travel-packages {
+    grid-template-columns: 1fr;
+    /* Stack cards on small screens */
+  }
+}
