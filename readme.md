@@ -1,12 +1,4 @@
 # Holiday Destination Finder
-## Table of Contents
-- [User Experience](#user-experience)
-- [Design](#design)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Deployment](#deployment)
-- [Testing](#testing)
-- [Credits](#credits)
 ## User Experience
 ### Key information
 - External user’s goal:
@@ -148,9 +140,11 @@ This project uses Git for version control.
  
 ## Preview
 Here are screenshots of the final website:
-[!Final Website Screenshot1](screenshot1.png)
-[!Final Website Screenshot2](screenshot2.png)
-[!Final Website Screenshot3](screenshot3.png)
+![Final Website Screenshot1](screenshot1.PNG)
+
+![Final Website Screenshot2](screenshot2.PNG)
+
+![Final Website Screenshot3](screenshot3.PNG)
   
 ## Credits
 
