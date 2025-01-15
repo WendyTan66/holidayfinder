@@ -135,7 +135,9 @@ __Report Issues__
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 13.
 
 ## Bug
+- Google Map was not loaded. It was caused by invalid API key. To fix that, make sure goolge cloud account is paid on time and map API function is not restricted.
 - When submitting the "Buy Now" booking form, users encounter a 405 Not Allowed error. This is because there is no backend server to handle this request. This error has not been fixed.
+- **Contact Us** is not properly linked in navigation bar. The cause was the id was written incorrectly in html coding.
 
 ## Version Control
 This project uses Git for version control. 
