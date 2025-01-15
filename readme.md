@@ -1,10 +1,10 @@
 # Holiday Destination Finder
 ## Table of Contents
-- [User Experience](#user)
+- [User Experience](#user-experience)
 - [Design](#design)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Deployment & Local Development](#deployment)
+- [Deployment](#deployment)
 - [Testing](#testing)
 - [Credits](#credits)
 ## User Experience
@@ -74,18 +74,72 @@ Gives selected travel packages of famous destinations to attract the users to ma
 ### Frameworks, Libraries & Programs Used
 - Canva
 
-## Deployment & Local Development
+## Deployment
 
 This project is hosted and deployed on GitHub. You can access the code repository at the following link:
 
-[GitHub Repository Link]()
-
+[GitHub Repository Link](https://wendytan66.github.io/holidayfinder/)
 
 ## Testing
+### Validator Testing
 - The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 During the validation of the CSS, a **Parse Error** related to the `font-family: Arial, sans-serif;` is encountered. The issue was resolved after specifying 'h1' and 'body' to it.
+### Map Search Testing
+__Test submission__
+- **Steps**
+  1. Input 'Edinburgh' in the search bar.
+  2. Click 'Search'.
+- **Expected Results**
+  1. The map marker will be relocated in Edinburgh and the area is zoomed in.
+  2. Relevant recommendations on accomodation, restaurant and attractions in Edinburgh will be listed under the map.
+
+__Test Validation__
+- **Steps**
+  1. Leave the bar empty.
+  2. Click 'Search'.
+- **Expected Result:** 
+  Error messages should appear for missing fields.
+
+__Test Responsiveness__
+- **Steps:** 
+  1. Use Search on different devices (e.g., phone, tablet, desktop).
+- **Expected Result:** 
+  The map should be easy to use on all devices.
+### Top offers Testing
+__Test submission__
+- **Steps**
+  1. Click "Buy Now" button.
+  2. Fill out the form with valid details.
+  3. Click 'Submit'.
+- **Expected Results**
+  You should see a confirmation message.
+
+__Test Validation__
+- **Steps**
+  1. Leave some required fields empty.
+  2. Click 'Submit'.
+- **Expected Result:** 
+ Error messages should appear for missing fields.
+
+__Test Responsiveness__
+- **Steps:** 
+  1. Use Buy Now button on different devices (e.g., phone, tablet, desktop).
+- **Expected Result:** 
+  It should be easy to use on all devices.
+    
+__Report Issues__
+- **Contact:** Email [wendytanvalencia@gmail.com].
+  
+### Further Testing
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 13.
+
+## Version Control
+This project uses Git for version control. 
+- - **Repository**: The project is maintained in a Git repository, which helps track changes and manage the project’s history.
+- - **Commits**: Changes are committed with descriptive messages to keep track of modifications and updates.
+- - **Commit Messages**: Descriptive commit messages are used to explain the purpose of each change.
+- - **Main Branch**: The `main` branch represents the latest stable version of the project. All final changes are merged into this branch.
   
 ## Credits
 
