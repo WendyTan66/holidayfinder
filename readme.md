@@ -134,6 +134,9 @@ __Report Issues__
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 13.
 
+## Bug
+- When submitting the "Buy Now" booking form, users encounter a 405 Not Allowed error. This is because there is no backend server to handle this request. This error has not been fixed.
+
 ## Version Control
 This project uses Git for version control. 
 - - **Repository**: The project is maintained in a Git repository, which helps track changes and manage the project’s history.
