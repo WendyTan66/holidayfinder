@@ -145,6 +145,12 @@ This project uses Git for version control.
 - - **Commits**: Changes are committed with descriptive messages to keep track of modifications and updates.
 - - **Commit Messages**: Descriptive commit messages are used to explain the purpose of each change.
 - - **Main Branch**: The `main` branch represents the latest stable version of the project. All final changes are merged into this branch.
+ 
+## Preview
+Here are screenshots of the final website:
+[!Final Website Screenshot1](screenshot1.png)
+[!Final Website Screenshot2](screenshot2.png)
+[!Final Website Screenshot3](screenshot3.png)
   
 ## Credits
 
