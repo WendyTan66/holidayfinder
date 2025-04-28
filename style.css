@@ -75,9 +75,13 @@ h2 {
 }
 
 #booking-form {
+  position: relative;
+  background-image: url('booking-background.jpg') !important;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
   padding: 20px;
   margin-top: 20px;
-  background: #f9f9f9;
   border: 1px solid #ddd;
   border-radius: 8px;
   max-width: 400px;
@@ -120,14 +124,6 @@ h2 {
   background-color: #0056b3;
 }
 
-.booking-form-bg {
-  background-image: url('booking-background.jpg') !important; 
-  background-size: cover;
-  background-position: center;
-  padding: 30px;
-  border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.4); /* This will darken the background */
-}
 
 
 /* Flexbox for Travel Packages */
