@@ -101,9 +101,7 @@ h2 {
 
 #map {
   margin-top: 20px;
-  border: 2px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
 }
 
 #accommodation, #restaurants, #attractions {
