@@ -1,6 +1,8 @@
 # Holiday Destination Finder
 ## User Experience
-### Key information
+###
+This app helps users find the ideal holiday destination providing detailed information about accommodations, attractions, and restaurants. The app aims to convert visitors into customers by offering a variety of travel packages.
+### Goal
 - External user’s goal:
 Find the best holiday destination for their needs.
 - Site owner's goal:
