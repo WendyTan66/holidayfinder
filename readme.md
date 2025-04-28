@@ -130,10 +130,14 @@ __Report Issues__
 - **Contact:** Email [wendytanvalencia@gmail.com].
   
 ### Further Testing
-- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- The Website was tested on Google Chrome,Microsoft Edge and Safari browsers.
 - **Microsoft Edge:**
 ![Microsoft](microsoft_edge.PNG)
-- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 13.
+- **Google Chrome:**
+![Google Chrome](Google_chrome.PNG)
+- **Mozilla Firefox:**
+![Mozilla Firefox](firefox.PNG)
+
 
 ## Bug
 - Google Map was not loaded. It was caused by invalid API key. To fix that, make sure goolge cloud account is paid on time and map API function is not restricted.
