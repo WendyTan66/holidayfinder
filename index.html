@@ -18,8 +18,9 @@
 
   <!-- search section -->
   <section id="search-section">
+    <h2>Search for Your Holiday Destination</h2>
     <div class="search-container">
-      <input type="text" id="search-input" placeholder="Enter a location" />
+      <input type="text" id="search-input" placeholder="Enter a location">
       <button id="search-button">Search</button>
     </div>
     <div id="map" style="height: 400px; width: 100%;"></div>
@@ -65,6 +66,7 @@
       <form action="/submit-booking" method="POST">
         <label for="package">Package Name</label>
         <select id="package" name="package" required>
+          <option value="">Select a destination</option>
           <option value=" Paris">Paris</option>
           <option value="Beijing">Beijing</option>
           <option value="New York">New York</option>
@@ -87,15 +89,14 @@
 
     <script src="script.js" defer></script>
 </body>
-   <footer id="contact-us" style="text-align: center; padding: 20px; background-color: lightblue;">
-    <h2 class='text-center'><strong>Contact Us</strong></h2>
-      <div>
-          <p>Email:<a href="mailto:getfit@gmail.com"> holiday@gmail.com</a> </p>
-         <p> Phone: 07802087591</p>
-        <p><a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
-        <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a> </p>
+<footer id="contact-us" style="text-align: center; padding: 20px; background-color: lightblue;">
+  <h2 class='text-center'><strong>Contact Us</strong></h2>
+    <div>
+      <p>Email:<a href="mailto:getfit@gmail.com"> holiday@gmail.com</a> </p>
+      <p> Phone: 07802087591</p>
+      <p><a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Find us on Facebook (link opens in a new tab)">Facebook</a>
+      <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
+      <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Find us on Twitter (link opens in a new tab)">Twitter</a> </p>
       </div>
   </footer>
-
 </html>
