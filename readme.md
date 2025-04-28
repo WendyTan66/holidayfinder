@@ -79,7 +79,7 @@ Contact information of the websitre.
 
 ## Deployment
 
-This project is hosted and deployed on GitHub. 
+This project is hosted and deployed on Netlify. 
 [Deployment Link](https://friendly-malasada-77d708.netlify.app/)
 You can access the code repository at the following link:
 [GitHub Repository Link](https://wendytan66.github.io/holidayfinder/)
