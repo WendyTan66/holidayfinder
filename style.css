@@ -11,6 +11,15 @@ h2 {
   text-align: center;
 }
 
+.h1-background {
+  background-image: url('travel-destination.jpg'); 
+  background-size: cover;
+  background-position: center;
+  padding: 200px; 
+  text-align: center;
+  color: black; 
+}
+
 /* Top bar styling */
 .top-bar {
   position: fixed;
@@ -110,6 +119,16 @@ h2 {
 #booking-form button:hover {
   background-color: #0056b3;
 }
+
+.booking-form-bg {
+  background-image: url('booking-background.jpg') !important; 
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.4); /* This will darken the background */
+}
+
 
 /* Flexbox for Travel Packages */
 .travel-packages {
