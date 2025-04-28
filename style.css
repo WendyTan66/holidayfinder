@@ -12,7 +12,7 @@ h2 {
 }
 
 .h1-background {
-  background-image: url('travel-destination.jpg'); 
+  background-image: url('media/travel-destination.jpg'); 
   background-size: cover;
   background-position: center;
   padding: 200px; 
@@ -120,7 +120,7 @@ h2 {
 
 #booking-form {
   position: relative;
-  background-image: url('booking-background.jpg') !important;
+  background-image: url('media/booking-background.jpg') !important;
   background-size: cover;
   padding: 20px;
   margin-top: 20px;
