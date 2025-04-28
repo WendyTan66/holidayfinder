@@ -58,6 +58,8 @@ Shows a list of hotels or other accommodations available in the searched locatio
 Displays recommended restaurants for the selected destination.
 ### Attraction
 Lists popular tourist attractions or things to do in the area.
+![Search Results1](search_result1.PNG)
+![Search Results2](search_result2.PNG)
 ### Top offers
 Gives selected travel packages of famous destinations to attract the users to make orders on the website.
 ![Top Offer1](top_offer_1.PNG)
@@ -163,7 +165,10 @@ This project uses Git for version control.
 (https://www.worldtravelguide.net/features/city-highlight/city-highlight-cairo/)
   4. **newyork** -Image source:[Travcel Guide]
 (https://www.travelguide.net/new-york/)
-
+  5. **header**-Image source:[Travel Weekly]
+(https://pe-insights.com/travelperk-acquires-yokoy-following-200m-equity-raise-to-strengthen-travel-tech-expansion/)
+  6. 5. **form backgrouind**-Image source:[Hotel kriopigi]
+(https://hotelkriopigi.gr/tips-traveling-airplane/)
 
 - The implementation of Google Maps on this website was made possible by the tutorial provided by [Google Maps API Documentation](https://developers.google.com/maps/documentation/javascript/adding-a-google-map). The tutorial helped guide the integration of Google Maps into the website.
 
