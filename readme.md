@@ -87,7 +87,7 @@ You can access the code repository at the following link:
 ## Testing
 ### Validator Testing
 - The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-During the validation of the CSS, a **Parse Error** related to the `font-family: Arial, sans-serif;` is encountered. The issue was resolved after specifying 'h1' and 'body' to it.
+W3 
 ### Map Search Testing
 __Test submission__
 - **Steps**
