@@ -51,7 +51,9 @@ h2 {
   text-decoration: underline;
 }
 
-
+*{
+  box-sizing: border-box;
+}
 #search-section {
   display: flex;
   flex-direction: column;
@@ -84,12 +86,14 @@ h2 {
 
 
 #search-button {
-  height: 50px;
+  height: 50px; /* Matching the height of the input */
+  width: 100px; /* Optional: set a fixed width if needed */
   padding: 0 20px;
   background-color: #007bff;
   color: white;
   font-size: 16px;
   border: 2px solid #007bff;
+  /* Removed border-radius for straight edges */
   cursor: pointer;
   transition: 0.3s;
 }
