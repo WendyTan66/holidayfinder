@@ -62,6 +62,9 @@ Lists popular tourist attractions or things to do in the area.
 Gives selected travel packages of famous destinations to attract the users to make orders on the website.
 ![Top Offer1](top_offer_1.PNG)
 ![Top Offer2](top_offer_2.PNG)
+### Contact Us
+Contact information of the websitre.
+![Contact Us](contact_us.PNG)
 ## Technologies Used
 ### Language used
 - HTML
