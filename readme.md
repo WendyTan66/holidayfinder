@@ -43,9 +43,11 @@ Below is the wireframe for this project:
 ## Features
 ### Navigation Bar
 Kept on top of other content all the time, it includes links to the search section and top offers to allow for easy navigation for users.
+![Header](header.PNG)
 ### Locaiton Search
 - Users can input a place name to find location and relevant travel details.
 - If the input field is empty, an alert is shown asking the user to enter a location.
+![Search](search.PNG)
 ### Interactive Map
 - A map with an original marker in London is presented to engage users to search.
 - The map is updated to center on the location of the searched place.
@@ -58,6 +60,8 @@ Displays recommended restaurants for the selected destination.
 Lists popular tourist attractions or things to do in the area.
 ### Top offers
 Gives selected travel packages of famous destinations to attract the users to make orders on the website.
+![Top Offer1](top_offer_1.PNG)
+![Top Offer2](top_offer_2.PNG)
 ## Technologies Used
 ### Language used
 - HTML
@@ -138,14 +142,7 @@ This project uses Git for version control.
 - - **Commit Messages**: Descriptive commit messages are used to explain the purpose of each change.
 - - **Main Branch**: The `main` branch represents the latest stable version of the project. All final changes are merged into this branch.
  
-## Preview
-Here are screenshots of the final website:
-![Final Website Screenshot1](screenshot1.PNG)
 
-![Final Website Screenshot2](screenshot2.PNG)
-
-![Final Website Screenshot3](screenshot3.PNG)
-  
 ## Credits
 
 - The images used on this website are sourced from various platforms. Below are the appropriate credits for each image:
