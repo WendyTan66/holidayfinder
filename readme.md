@@ -35,19 +35,19 @@ In the case that Arial is not available on the user's device, the fallback font 
 ### Wireframes
 Below is the wireframe for this project:
 - Desktop View
-![Desktop](wireframe1.png)
+![Desktop](media/wireframe1.png)
 - Mobile View
-![Mobile Wireframe](wireframe2.png)
+![Mobile Wireframe](media/wireframe2.png)
 - Tablet View
-![Tablet Wireframe](wireframe3.png)
+![Tablet Wireframe](media/wireframe3.png)
 ## Features
 ### Navigation Bar
 Kept on top of other content all the time, it includes links to the search section and top offers to allow for easy navigation for users.
-![Header](header.PNG)
+![Header](media/header.PNG)
 ### Locaiton Search
 - Users can input a place name to find location and relevant travel details.
 - If the input field is empty, an alert is shown asking the user to enter a location.
-![Search](search.PNG)
+![Search](media/search.PNG)
 ### Interactive Map
 - A map with an original marker in London is presented to engage users to search.
 - The map is updated to center on the location of the searched place.
@@ -58,15 +58,15 @@ Shows a list of hotels or other accommodations available in the searched locatio
 Displays recommended restaurants for the selected destination.
 ### Attraction
 Lists popular tourist attractions or things to do in the area.
-![Search Results1](search_result1.PNG)
-![Search Results2](search_result2.PNG)
+![Search Results1](media/search_result1.PNG)
+![Search Results2](media/search_result2.PNG)
 ### Top offers
 Gives selected travel packages of famous destinations to attract the users to make orders on the website.
-![Top Offer1](top_offer_1.PNG)
-![Top Offer2](top_offer_2.PNG)
+![Top Offer1](media/top_offer_1.PNG)
+![Top Offer2](media/top_offer_2.PNG)
 ### Contact Us
 Contact information of the websitre.
-![Contact Us](contact_us.PNG)
+![Contact Us](media/contact_us.PNG)
 ## Technologies Used
 ### Language used
 - HTML
@@ -135,11 +135,11 @@ __Report Issues__
 ### Further Testing
 - The Website was tested on Google Chrome,Microsoft Edge and Safari browsers.
 - **Microsoft Edge:**
-![Microsoft](microsoft_edge.PNG)
+![Microsoft](media/microsoft_edge.PNG)
 - **Google Chrome:**
-![Google Chrome](Google_chrome.PNG)
+![Google Chrome](media/Google_chrome.PNG)
 - **Mozilla Firefox:**
-![Mozilla Firefox](firefox.PNG)
+![Mozilla Firefox](media/firefox.PNG)
 
 
 ## Bug
