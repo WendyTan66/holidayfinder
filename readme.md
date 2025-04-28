@@ -87,7 +87,12 @@ You can access the code repository at the following link:
 ## Testing
 ### Validator Testing
 - The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-W3 
+- **HTML checking**
+![Validator error1](media/w3validator1.PNG)
+![Validator error2](media/w3validator2.PNG)
+![Validator error fixed](media/validator_after.PNG)
+- **CSS checking**
+![Validator no error](media/validator_css.PNG)
 ### Map Search Testing
 __Test submission__
 - **Steps**
