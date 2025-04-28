@@ -131,6 +131,8 @@ __Report Issues__
   
 ### Further Testing
 - The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- **Microsoft Edge:**
+![Microsoft](microsoft_edge.PNG)
 - The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 13.
 
 ## Bug
